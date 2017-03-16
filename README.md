@@ -188,19 +188,19 @@ Steps to be followed to Build and Run the Android App for Smart Parking System
 
 Step 1 : Change the directory to the lora-based-garbageBin-tracker/app
 
- 			cd lora-based-garbageBin-tracker/app
+		cd lora-based-garbageBin-tracker/app
 Step 2 : Modify the pubnub publish and subscribe keys at www/js/index.js
 
 Step 3: In the config.xml file in the root folder change the name of the app to the name you want. This is optional step. By default the app name is "Trash Can"
 
 Step 4: Build the app by executing the following command in the terminal in the root folder of the cordova app
 
-    cordova build android
+		cordova build android
 Step 5: Once build is successful, you can find the generated apk file in the following path relative to the cordova project root directory.
 
-    /platforms/android/build/outputs/apk
+		/platforms/android/build/outputs/apk
 
 Step 4 : Once the .apk file is build successfully, you will find the app at this path
 
- 			./platforms/android/ant-build/android_debug.apk
+		./platforms/android/ant-build/android_debug.apk
 Step 5 : Install the App on an Android Phone. Follow the steps in README file to use the app.
