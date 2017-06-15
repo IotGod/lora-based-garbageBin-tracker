@@ -1,10 +1,14 @@
-# LORA WAN BASED GARBAGE BIN TRACKER
+# LoRa BASED GARBAGE BIN TRACKER
 
-This repo consists of source code for node, gateway and mobile app for this [blog post](http://radiostud.io/smart-garbage-bi…cker-using-lpwan/).
+This repo consists of source code for node, gateway and mobile app for this [blog post](http://radiostud.io/lorawan-smart-city-smart-garbage-bin-tracker/).
 
 # OVERVIEW
 
-This Project Demonstrates how to integrate the LoRa gateway with the raspberry pi, track the garbage bin data from node and visiualize it on Mobile App.
+This project demonstrates how to make a LoRa gateway with the Raspberry pi, and track the garbage bin data from a node and visualize it on mobile app.
+
+Refer the blog post for details on hardware setup and software setup for gateway and node.
+
+Follow the instructions below to build the mobile app using Cordova and Android Studio.
 
 # Setting up Build Environment for Android & Cordova
 
